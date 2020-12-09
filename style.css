@@ -39,15 +39,17 @@ body {
     opacity: 0.48;
 }
 .nav-bar img {
-    width: 50px;
-    height: 45px;
-    margin-left: 1em;
+    width: 45px;
+    height: 40px;
+    margin-left: 2em;
+    margin-top: 0.5em;
 }
 p.company-name {
     color: white;
     font-weight: bolder;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
+    margin-left: 0.5em;
 }
 .nav-bar ul {
     display: flex;
@@ -58,7 +60,7 @@ p.company-name {
     color: white;
     list-style: none;
     padding: 10px;
-    margin: 0 1em 0 1em;
+    margin-right: 1.5em;
     font-family: 'Lato', sans-serif;
 }
 .nav .fa {
