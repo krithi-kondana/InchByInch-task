@@ -1,0 +1,137 @@
+body {
+    padding: 0;
+    margin:0;
+}
+.main-container {
+    width: 1440px;
+    height: 900px;
+    position: relative;
+}
+.bottom-container {
+    width: 1440px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+}
+.top-container {
+    position: relative;
+    width: 1440px;
+    height: 600px;
+}
+.top-container img {
+    width: 1440px;
+    height: 600px;
+}
+.nav-bar {
+    width: 1440px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    background: linear-gradient(to right, black 10%, transparent 80%, black 100%);
+}
+.bottom-div {
+    width: 1440px;
+    height: 56px;
+    position: absolute;
+    bottom: 0;
+    background: black;
+    opacity: 0.48;
+}
+.nav-bar img {
+    width: 50px;
+    height: 45px;
+    margin-left: 1em;
+}
+p.company-name {
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+.nav-bar ul {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.nav-bar ul li {
+    color: white;
+    list-style: none;
+    padding: 10px;
+    margin: 0 1em 0 1em;
+    font-family: 'Lato', sans-serif;
+}
+.nav .fa {
+    font-size: 15px;
+    color: rgb(145,222,20);
+    margin-left: 0.5em;  
+} 
+.video-icon {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.video-icon img {
+    width:200px;
+    height: 200px;
+}
+.social-media {
+    display:flex;
+    flex-direction: column;
+    margin-left: auto; 
+    align-items: flex-end;
+    top: 40%;
+    right: 0;
+    position: absolute;
+
+}
+.social-media img {
+    width:70px;
+    height: 70px;
+}
+.bottom-container h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+
+}
+.bottom-container p {
+    margin: auto;
+    width:680px;
+    height: 103px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    line-height: 175.5%;
+    text-align: justify;
+  text-justify: inter-word;
+}
+.bottom-container img {
+    width: 70px;
+    height: 70px;
+    bottom: 0;
+    margin-left: 3em;
+    position: absolute;
+}
+.bottom-rectangle {
+    display: flex;
+    position: absolute;
+    bottom: 0; 
+    left: 20%;
+}
+.rectangle1, .rectangle2, .rectangle3 {
+    background: rgb(240, 240, 240);
+    width: 284px;
+    height: 20px;
+    margin: 0 0.5em 0 0.5em;
+}
+.bottom-container img:last-child {
+    width: 70px;
+    height: 70px;
+    bottom: 0;
+    right: 3em;
+}
